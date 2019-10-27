@@ -1583,7 +1583,7 @@ function (_Component) {
         onBlur: this._setHasZIndex(false),
         tabIndex: "-1"
       }, children(this._handleChildrenParam()), this._renderItemResize()), (isStartDraggable || isStartResizable) && React.createElement("div", {
-        classNam: styles.overlay,
+        className: styles.overlay,
         style: {
           zIndex: 99
         }
