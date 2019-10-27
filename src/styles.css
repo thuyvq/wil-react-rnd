@@ -1,0 +1,98 @@
+.container {
+  position: fixed;
+  z-index: 9998;
+  user-select: none;
+  will-change: top, left, width, height;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.itemDraggable {
+  cursor: move;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: -6px;
+  bottom: 0;
+  z-index: 999;
+  width: 12px;
+  cursor: ew-resize;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: -6px;
+  bottom: 0;
+  z-index: 999;
+  width: 12px;
+  cursor: ew-resize;
+}
+
+.bottom {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  right: 0;
+  z-index: 999;
+  height: 12px;
+  cursor: ns-resize;
+}
+
+.top {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  right: 0;
+  z-index: 999;
+  height: 12px;
+  cursor: ns-resize;
+}
+
+.topRight {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  z-index: 999;
+  width: 16px;
+  height: 16px;
+  cursor: nesw-resize;
+}
+
+.topLeft {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  z-index: 999;
+  width: 16px;
+  height: 16px;
+  cursor: nwse-resize;
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  z-index: 999;
+  width: 16px;
+  height: 16px;
+  cursor: nwse-resize;
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+  z-index: 999;
+  width: 16px;
+  height: 16px;
+  cursor: nesw-resize;
+}

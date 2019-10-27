@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+.box {
+  background-color: #fff;
+  height: 100%
+}
+
+.drag {
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
