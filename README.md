@@ -54,6 +54,7 @@ class App extends React.Component {
 | dragHorizontalRange     | `Array<number>`                     | `[-Infinity, Infinity]`  | [min drag horizontal, max drag horizontal] |
 | dragVerticalRange     | `Array<number>`                     | `[-Infinity, Infinity]`  | [min drag vertical, max drag vertical] |
 | containerClassName     | `string`                     | -  | className for component container |
+| children             | `({ dragRef: HTLMElement, isStartResizable: boolean, isStartDraggable: boolean }) => React.Node`  | -       | dragRef example: `<button ref={dragRef}>Drag me</button>`, isStartResizable: when component resizing, isStartDraggable: when component dragging  |
 | onDragStart             | `(measure: Object) => void`  | -       | Callback executed when component drag start  |
 | onResizeStart             | `(placement: string, measure: Object) => void`  | -       | Callback executed when component resize start  |
 | onDrag             | `(measure: Object) => void`  | -       | Callback executed when component dragging  |
